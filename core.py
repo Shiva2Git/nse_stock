@@ -24,7 +24,7 @@ except Exception:
     TF_AVAILABLE = False
 
 st.set_page_config(page_title="Stock analysis ", layout="wide")
-st.title("📈 Stock Analyzer)")
+st.title("📈 Stock Analyzer :)")
 
 LOCAL_CSV_PATH = "/mnt/data/T20-GL-gainers-allSec-22-Nov-2025.csv"
 
