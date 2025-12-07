@@ -68,7 +68,7 @@ def to_yf_symbol(t):
 df["yf_symbol"] = df["ticker"].apply(to_yf_symbol)
 
 st.subheader("CSV preview (first 10 rows)")
-st.dataframe(df.head(10), width="stretch")
+st.dataframe(df.head(len(df)), width="stretch")
 
 # -------------------------
 # Controls
